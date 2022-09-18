@@ -4,39 +4,40 @@
     <meta charset="UTF-8">
     <title>Odin Recipes</title>
 
+    <link rel="stylesheet" href="./style.css">
+
 </head>
 
 <body>
     
     <h1>Odin Recipes</h1>
-    <h2>Cook something delicious that you enjoy</h2>
-    <p>  </p>
+    <div class="heading">Cook something delicious that you enjoy</div>
     <!--display pictures in one row-->
-    
-      <body>
-    <div class="row">
-        <div class="column">
-            <img src="./recipes/peking-duck.jpeg" alt="Peking Duck" style="width:30%">
-            <a href="./recipes/peking-duck.html">Peking Duck</a>
-    
+<br>
+    <div id="banner">
+        <div class="inline-block">
+            <a href="./recipes/peking-duck.html"><img class="imageformat" src="./recipes/peking-duck.jpeg" alt="Peking Duck"></a>
+            <p>Peking Duck</p>
         </div>
-        <div class="column">
-            <img src="./recipes/shrimp-pasta.jpeg" alt="Shrimp Pasta" style="width:30%">
-            <a href="./recipes/shrimp-pasta.html">Shrimp Pasta</a>
-        </div>
-        <div class="column">
-            <img src="./recipes/chicken.jpeg" alt="Cola Chicken" style="width:30%">
-            <a href="./recipes/cola-chicken.html">Cola Chicken</a>
 
+        <div class="inline-block">
+            <a href="./recipes/shrimp-pasta.html"><img class="imageformat" src="./recipes/shrimp-pasta.jpeg" alt="Shrimp Pasta"></a>
+            <p>Shrimp Pasta</p>
+        </div>
+
+        <div class="inline-block">
+           <a href="./recipes/cola-chicken.html"><img class="imageformat" src="./recipes/chicken.jpeg" alt="Cola Chicken"></a>
+            <p>Cola Chicken</p>
         </div>
     </div>
+    <div class="heading">Recipe collections</div>
 
-    <h3>Recipe collections</h3>
-    <ul>
+    <ul class="a">
         <li><a href="./recipes/peking-duck.html">Peking Duck</a></li>
         <li><a href="./recipes/shrimp-pasta.html">Shrimp Pasta</a></li>
         <li><a href="./recipes/cola-chicken.html">Cola Chicken</a></li>
     </ul>
+
 </body>
 
 </html>
